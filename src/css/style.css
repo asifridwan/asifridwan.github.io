@@ -6,3 +6,73 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+nav{
+    background-color: #15133C;
+    color: white;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fade{
+    transition: ease-in 0.25s;
+}
+
+.fade:hover{
+    cursor: pointer;
+    transition: ease-out 0.2s;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    background-image: url('../images/ar_logo_white.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo:hover{
+    transform: scale(1.2,1.2);
+    background-image: url('../images/ar_logo_blue.png');
+}
+
+.nav-links{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links span:hover{
+    color: #6da1ff;
+    cursor: pointer;
+    border-bottom: 1px solid;
+}
+
+.menu{
+    display: none;
+}
+
+@media screen and (max-width: 900px){
+    .nav-links{
+        flex-direction: column;
+        position: absolute;
+        top: 7vh;
+        background-color: #15133C;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-links span{
+        padding: 20px;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+}
