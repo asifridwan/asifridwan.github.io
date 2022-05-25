@@ -40,7 +40,6 @@ nav{
 
 .nav-links{
     width: 20%;
-    display: flex;
     justify-content: space-between;
 }
 
@@ -48,6 +47,10 @@ nav{
     color: #6da1ff;
     cursor: pointer;
     border-bottom: 1px solid;
+}
+
+.hidden-toggle, .responsive-toggle{
+    display: flex;
 }
 
 .menu{
@@ -68,11 +71,11 @@ nav{
         padding: 20px;
     }
 
-    .hidden{
+    .hidden-toggle{
         display: none;
     }
 
     .menu{
-        display: block;
+        display: inline;
     }
 }

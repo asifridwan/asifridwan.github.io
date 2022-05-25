@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <nav>
       <div className="logo fade"></div>
-      <div className={isMenuClicked ? "nav-links" : "hidden"}>
+      <div className={isMenuClicked ? "nav-links responsive-toggle" : "nav-links hidden-toggle"}>
         <span className="fade">About</span>
         <span className="fade">Projects</span>
         <span className="fade">Contact</span>
