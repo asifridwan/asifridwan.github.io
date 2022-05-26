@@ -7,6 +7,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
 nav{
     background-color: #15133C;
     color: white;
@@ -14,6 +21,9 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .fade{
@@ -57,6 +67,68 @@ nav{
     display: none;
 }
 
+.home-page{
+    background-image: url('../images/Home_Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 93vh;
+    margin-top: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-info-name, .home-info-id{
+    margin: 15px;
+}
+
+.home-info-name{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.home-info-id{
+    font-size: 25px;
+}
+
+.button-containers{
+    margin: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-button, .projects-button{
+    color: white;
+    padding: 12px 16px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.about-button{
+    background-color: #37d19e;
+}
+
+.about-button:hover{
+    background-color: #22a579;
+}
+
+.projects-button{
+    background-color: #6A67CE;
+    margin-left: 20px;
+}
+
+.projects-button:hover{
+    background-color: #423eb1;
+}
+
 @media screen and (max-width: 900px){
     .nav-links{
         flex-direction: column;
@@ -77,5 +149,19 @@ nav{
 
     .menu{
         display: inline;
+    }
+}
+
+@media screen and (max-width: 635px){
+    .home-info-name{
+        font-size: 20px;
+    }
+
+    .home-info-id{
+        font-size: 15px;
+    }
+
+    .about-button, .projects-button{
+        font-size: 12px;
     }
 }
