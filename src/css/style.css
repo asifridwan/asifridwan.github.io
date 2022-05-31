@@ -67,15 +67,18 @@ nav{
     display: none;
 }
 
+.home-page, .about-page{
+    min-height: 93vh;
+    margin-top: 7vh;
+    display: flex;
+    align-items: center;
+}
+
 .home-page{
     background-image: url('../images/Home_Background.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 93vh;
-    margin-top: 7vh;
-    display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .home-info-container{
@@ -101,7 +104,7 @@ nav{
 .button-containers{
     margin: 35px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -129,6 +132,34 @@ nav{
     background-color: #423eb1;
 }
 
+.about-page{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.rectangle{
+    width: 50px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
 @media screen and (max-width: 900px){
     .nav-links{
         flex-direction: column;
@@ -150,18 +181,26 @@ nav{
     .menu{
         display: inline;
     }
-}
 
-@media screen and (max-width: 635px){
     .home-info-name{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .home-info-id{
-        font-size: 15px;
+        font-size: 13px;
+    }
+
+    .button-containers{
+        flex-direction: column;
     }
 
     .about-button, .projects-button{
-        font-size: 12px;
+        font-size: 11px;
+        padding: 8px 12px;
+    }
+
+    .projects-button{
+        margin-left: 0px;
+        margin-top: 20px;
     }
 }
