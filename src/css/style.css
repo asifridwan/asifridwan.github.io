@@ -75,7 +75,7 @@ nav{
 }
 
 .home-page{
-    background-image: url('../images/Home_Background.png');
+    background-color: #efeeff;
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
@@ -86,6 +86,20 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.home-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-icon{
+    height: 150px;
+    width: 150px;
+    background-image: url('../images/swe_logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .home-info-name, .home-info-id{
@@ -180,6 +194,22 @@ nav{
 
     .menu{
         display: inline;
+    }
+
+    .home-info{
+        flex-direction: column;
+    }
+
+    .home-icon{
+        height: 80px;
+        width: 80px;
+    }
+
+    .home-tagline{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .home-info-name{
