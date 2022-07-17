@@ -67,7 +67,7 @@ nav{
     display: none;
 }
 
-.home-page, .about-page{
+.home-page{
     min-height: 93vh;
     margin-top: 7vh;
     display: flex;
@@ -139,39 +139,11 @@ nav{
 
 .projects-button{
     background-color: #6A67CE;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .projects-button:hover{
     background-color: #423eb1;
-}
-
-.about-page{
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.box{
-    height: 200px;
-    width: 200px;
-    background-color: brown;
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.circle{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background-color: aliceblue;
-}
-
-.rectangle{
-    width: 50px;
-    height: 100px;
-    background-color: aquamarine;
 }
 
 @media screen and (max-width: 900px){
