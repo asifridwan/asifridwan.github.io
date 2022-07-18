@@ -246,4 +246,20 @@ footer{
     .contact-tagline{
         margin-right: 0px;
     }
+
+    .contact-tagline-1{
+        font-size: 22px;
+    }
+    
+    .contact-tagline-2{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+    .contact-links{
+        margin-top: 40px;
+        font-size: 45px;
+        gap: 30px 40px;
+        grid-template-columns: auto auto;
+    }
 }
