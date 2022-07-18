@@ -5,8 +5,8 @@ export default function Home() {
         <div className="home-info">
           <div className="home-icon"></div>
           <div className="home-tagline">
-            <div className="home-info-name">Hello ! I am Asif Ridwan</div>
-            <div className="home-info-id">A Full Stack Software Engineer who specializes in the MERN Stack</div>
+            <p className="home-info-name">Hello ! I am Asif Ridwan</p>
+            <p className="home-info-id">A Full Stack Software Engineer who specializes in the MERN Stack</p>
           </div>
         </div>
         <div className="button-containers">
