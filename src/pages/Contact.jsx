@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section className="contact-page">
+    <section className="page">
       <div className="info-container">
         <div className="contact-tagline">
           <p className="contact-tagline-1">Stay Connected</p>

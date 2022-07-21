@@ -87,11 +87,11 @@ a:link, a:visited{
     display: none;
 }
 
-.home{
+.vertical{
     flex-direction: column;
 }
 
-.home-page, .contact-page{
+.page{
     min-height: 93vh;
     margin-top: 7vh;
     background-color: #efeeff;

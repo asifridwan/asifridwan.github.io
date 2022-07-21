@@ -1,14 +1,16 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-/* import Home from "../components/Home"; */
-import Contact from "../components/Contact";
+/* import Home from "../pages/Home"; */
+import Projects from "../pages/Projects";
+/* import Contact from "../pages/Contact"; */
 
 function App() {
   return (
     <>
       <Navbar />
       {/* <Home /> */}
-      <Contact />
+      <Projects />
+      {/* <Contact /> */}
       <Footer />
     </>
   );
