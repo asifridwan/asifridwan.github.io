@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <section className="home-page">
-      <div className="info-container">
+      <div className="info-container home">
         <div className="home-info">
           <div className="home-icon"></div>
           <div className="home-tagline">

@@ -8,32 +8,42 @@ export default function Contact() {
         </div>
         <div className="contact-links">
           <div className="icon">
-            <p className="tooltip">asifridwan@gmail.com</p>
             <i className="far fa-envelope"></i>
+            <p className="tooltip">asifridwan@gmail.com</p>
           </div>
           <div className="icon">
-            <p className="tooltip">(+880) 1920251381</p>
             <i className="fab fa-whatsapp"></i>
+            <p className="tooltip">(+880) 1920251381</p>
           </div>
           <div className="icon">
+            <a href="https://www.linkedin.com/in/asifridwaan/">
+              <i className="fab fa-linkedin"></i>
+            </a>
             <p className="tooltip">Asif Ridwan</p>
-            <i className="fab fa-linkedin"></i>
           </div>
           <div className="icon">
+            <a href="https://github.com/asifridwan">
+              <i className="fab fa-github"></i>
+            </a>
             <p className="tooltip">asifridwan</p>
-            <i className="fab fa-github"></i>
           </div>
           <div className="icon">
+            <a href="https://twitter.com/asifridwaan">
+              <i className="fab fa-twitter"></i>
+            </a>
             <p className="tooltip">@asifridwaan</p>
-            <i className="fab fa-twitter"></i>
           </div>
           <div className="icon">
+            <a href="https://www.facebook.com/asifridwan2.0/">
+              <i className="fab fa-facebook"></i>
+            </a>
             <p className="tooltip">Asif Ridwan</p>
-            <i className="fab fa-facebook"></i>
           </div>
           <div className="icon">
+            <a href="https://www.instagram.com/asifridwaan/">
+              <i className="fab fa-instagram"></i>
+            </a>
             <p className="tooltip">@asifridwaan</p>
-            <i className="fab fa-instagram"></i>
           </div>
         </div>
       </div>

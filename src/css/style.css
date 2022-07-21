@@ -35,6 +35,11 @@ footer{
     text-align: center;
 }
 
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
 .fade{
     transition: ease-in 0.25s;
 }
@@ -42,6 +47,12 @@ footer{
 .fade:hover{
     cursor: pointer;
     transition: ease-out 0.2s;
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo{
@@ -58,7 +69,7 @@ footer{
 }
 
 .nav-links{
-    width: 20%;
+    width: 30%;
     justify-content: space-between;
 }
 
@@ -76,6 +87,10 @@ footer{
     display: none;
 }
 
+.home{
+    flex-direction: column;
+}
+
 .home-page, .contact-page{
     min-height: 93vh;
     margin-top: 7vh;
@@ -85,13 +100,6 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.info-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
 .home-info{
@@ -168,24 +176,30 @@ footer{
 }
 
 .contact-links{
-    margin-top: 100px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 200px;
 }
 
 .icon{
-    padding: 10px 15px;
+    padding: 15px 10px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.far, .fab{
+    font-size: 50px;
+    cursor: pointer;
+}
+
 .tooltip{
-    background-color: #423eb1;
+    display: none;
+    margin-left: 20px;
+    background-color: #3572e2;
     color: white;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 200;
     padding: 5px 7px;
     border-radius: 5px;
@@ -198,15 +212,17 @@ footer{
     width: 10px;
     display: block;
     position: absolute;
-    background-color: #423eb1;
-    top: 85%;
-    left: 50%;
-    transform: translateX(-50%) rotate(45deg);
+    background-color: #3572e2;
+    top: 35%;
+    transform: translateX(-110%) rotate(45deg);
 }
 
-.contact-links i{
-    font-size: 45px;
-    margin-top: 10px;
+.icon:hover .far, .icon:hover .fab{
+    color: #3572e2;
+}
+
+.icon:hover .tooltip{
+    display: block;
 }
 
 @media screen and (max-width: 900px){
@@ -236,7 +252,7 @@ footer{
         display: inline;
     }
 
-    .home-info, .contact-info-container{
+    .home-info, .info-container{
         flex-direction: column;
     }
 
@@ -288,14 +304,15 @@ footer{
     }
 
     .contact-links{
+        margin-left: 0px;
         margin-top: 50px;
     }
 
-    .contact-links i{
-        font-size: 18px;
+    .icon{
+        padding: 12px 6px;
     }
 
-    .icon{
-        padding: 7px 10px;
+    .far, .fab{
+        font-size: 28px;
     }
 }
