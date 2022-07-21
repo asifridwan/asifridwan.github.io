@@ -1,9 +1,16 @@
+import Project from "../components/Project";
+
 export default function Projects() {
   return (
     <section className="page">
         <div className="info-container vertical">
-            <h1>Projects</h1>
-            <h4>Here is a list of some of the projects I've done so far</h4>
+          <div className="contact-tagline">
+            <p className="home-info-name">Projects</p>
+            <p className="home-info-id">Here's a list of some projects that I've done so far</p>
+          </div>
+          <div className="projects-wrapper">
+            <Project name="ABC" desc="XYZ" keyword="123, abc, qwerty" github="qwe" main="rty" />
+          </div>
         </div>
     </section>
   )
