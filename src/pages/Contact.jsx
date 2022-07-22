@@ -1,5 +1,4 @@
 import ClickableIcon from "../components/ClickableIcon";
-import NonClickableIcon from "../components/NonClickableIcon";
 
 export default function Contact() {
   return (
@@ -10,8 +9,8 @@ export default function Contact() {
           <p className="contact-tagline-2">Feel free to hit me up on any of these !</p>
         </div>
         <div className="contact-links">
-          <NonClickableIcon icon="far fa-envelope" tooltip="asifridwan@gmail.com" />
-          <NonClickableIcon icon="fab fa-whatsapp" tooltip="(+880) 1920251381" />
+          <ClickableIcon icon="far fa-envelope" tooltip="asifridwan@gmail.com" />
+          <ClickableIcon icon="fab fa-whatsapp" tooltip="(+880) 1920251381" />
           <ClickableIcon link="https://www.linkedin.com/in/asifridwaan/" icon="fab fa-linkedin" tooltip="Asif Ridwan" />
           <ClickableIcon link="https://github.com/asifridwan" icon="fab fa-github" tooltip="asifridwan" />
           <ClickableIcon link="https://twitter.com/asifridwaan" icon="fab fa-twitter" tooltip="@asifridwaan" />

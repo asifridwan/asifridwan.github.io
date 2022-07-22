@@ -283,6 +283,14 @@ a:link, a:visited{
     margin-top: 10px;
 }
 
+.github-link:hover{
+    background-color: #b11146;
+}
+
+.main-link:hover{
+    background-color: #88219c;
+}
+
 @media screen and (max-width: 900px){
     footer{
         font-size: 10px;
