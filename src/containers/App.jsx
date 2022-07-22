@@ -1,7 +1,8 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 /* import Home from "../pages/Home"; */
-import Projects from "../pages/Projects";
+import Skills from "../pages/Skills";
+/* import Projects from "../pages/Projects"; */
 /* import Contact from "../pages/Contact"; */
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
     <>
       <Navbar />
       {/* <Home /> */}
-      <Projects />
+      <Skills />
+      {/* <Projects /> */}
       {/* <Contact /> */}
       <Footer />
     </>
