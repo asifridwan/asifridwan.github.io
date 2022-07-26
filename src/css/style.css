@@ -24,6 +24,7 @@ nav{
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 999;
 }
 
 footer{
@@ -291,6 +292,129 @@ a:link, a:visited{
     background-color: #88219c;
 }
 
+.skills-wrapper{
+    margin: 80px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+}
+
+.skill-box{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.html{
+    background-image: url('../images/html-bw.png');
+    
+}
+
+.html:hover{
+    background-image: url('../images/html.png');
+    
+}
+
+.css{
+    background-image: url('../images/css-bw.png');
+}
+
+.css:hover{
+    background-image: url('../images/css.png');
+}
+
+.js{
+    background-image: url('../images/js-bw.png');
+}
+
+.js:hover{
+    background-image: url('../images/js.png');
+}
+
+.react{
+    background-image: url('../images/react-bw.png');
+}
+
+.react:hover{
+    background-image: url('../images/react.png');
+}
+
+.redux{
+    background-image: url('../images/redux-bw.png');
+}
+
+.redux:hover{
+    background-image: url('../images/redux.png');
+}
+
+.nodejs{
+    background-image: url('../images/nodejs-bw.png');
+}
+
+.nodejs:hover{
+    background-image: url('../images/nodejs.png');
+}
+
+.postgresql{
+    background-image: url('../images/postgresql-bw.png');
+}
+
+.postgresql:hover{
+    background-image: url('../images/postgresql.png');
+}
+
+.mysql{
+    background-image: url('../images/mysql-bw.png');
+}
+
+.mysql:hover{
+    background-image: url('../images/mysql.png');
+}
+
+.mongodb{
+    background-image: url('../images/mongodb-bw.png');
+}
+
+.mongodb:hover{
+    background-image: url('../images/mongodb.png');
+}
+
+.flutter{
+    background-image: url('../images/flutter-bw.png');
+}
+
+.flutter:hover{
+    background-image: url('../images/flutter.png');
+}
+
+.git{
+    background-image: url('../images/git-bw.png');
+}
+
+.git:hover{
+    background-image: url('../images/git.png');
+}
+
+.bash{
+    background-image: url('../images/bash-bw.png');
+}
+
+.bash:hover{
+    background-image: url('../images/bash.png');
+}
+
+.html, .css, .js, .react, .redux, .nodejs, .postgresql, .mysql, .mongodb, .flutter, .git, .bash{
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: ease-out 0.4s;
+}
+
+.html:hover, .css:hover, .js:hover, .react:hover, .redux:hover, .nodejs:hover, .postgresql:hover, .mysql:hover, .mongodb:hover, .flutter:hover, .git:hover, .bash:hover{
+    transform: scale(1.1, 1.1);
+    transition: ease-in 0.4s;
+}
+
 @media screen and (max-width: 900px){
     footer{
         font-size: 10px;
@@ -408,5 +532,10 @@ a:link, a:visited{
     .github-link, .main-link{
         padding: 6px 10px;
         font-size: 11px;
+    }
+
+    .skills-wrapper{
+        grid-template-columns: auto;
+        margin: 40px 0px;
     }
 }
