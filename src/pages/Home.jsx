@@ -1,4 +1,4 @@
-export default function Home() {
+export default function Home({readMoreClick, viewProjectsClick}) {
   return (
     <section className="page">
       <div className="info-container vertical">
@@ -10,8 +10,8 @@ export default function Home() {
           </div>
         </div>
         <div className="button-containers">
-          <button className="about-button fade">Read More</button>
-          <button className="projects-button fade">View Projects</button>
+          <button className="about-button fade" onClick={readMoreClick}>Read More</button>
+          <button className="projects-button fade" onClick={viewProjectsClick}>View Projects</button>
         </div>
       </div>
     </section>
