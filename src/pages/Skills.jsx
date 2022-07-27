@@ -1,7 +1,7 @@
 export default function Skills() {
   return (
     <section className="page">
-      <div className="info-container vertical">
+      <div className="info-container">
         <div className="contact-tagline">
           <p className="home-info-name">Skills</p>
           <p className="home-info-id">Here's a list of technologies I'm confidently skilled at</p>
