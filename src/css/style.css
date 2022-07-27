@@ -403,16 +403,42 @@ a:link, a:visited{
     background-image: url('../images/bash.png');
 }
 
-.html, .css, .js, .react, .redux, .nodejs, .postgresql, .mysql, .mongodb, .flutter, .git, .bash{
+.html, .css, .js, .react, .redux, .nodejs, .postgresql, .mysql, .mongodb, .flutter, .git, .bash, .avatar{
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
     transition: ease-out 0.4s;
 }
 
-.html:hover, .css:hover, .js:hover, .react:hover, .redux:hover, .nodejs:hover, .postgresql:hover, .mysql:hover, .mongodb:hover, .flutter:hover, .git:hover, .bash:hover{
+.html:hover, .css:hover, .js:hover, .react:hover, .redux:hover, .nodejs:hover, .postgresql:hover, .mysql:hover, .mongodb:hover, .flutter:hover, .git:hover, .bash:hover, .avatar:hover{
     transform: scale(1.1, 1.1);
     transition: ease-in 0.4s;
+}
+
+.avatar{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: url('../images/avatar-bw.png');
+}
+
+.avatar:hover{
+    background-image: url('../images/avatar.png');
+}
+
+.about-me{
+    width: 700px;
+    margin-left: 80px;
+}
+
+.about-me-1{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.about-me-2{
+    font-size: 20px;
+    margin-top: 15px;
 }
 
 @media screen and (max-width: 900px){
@@ -538,5 +564,73 @@ a:link, a:visited{
         grid-template-columns: auto;
         gap: 25px;
         margin: 40px 0px;
+    }
+
+    .avatar{
+        width: 220px;
+        height: 220px;
+        background-image: url('../images/avatar.png');
+    }
+
+    .about-me{
+        width: 250px;
+        margin: 40px 0px;
+    }
+
+    .about-me-1{
+        font-size: 20px;
+    }
+
+    .about-me-2{
+        font-size: 15px;
+    }
+
+    .html{
+        background-image: url('../images/html.png');
+        
+    }
+    
+    .css{
+        background-image: url('../images/css.png');
+    }
+    
+    .js{
+        background-image: url('../images/js.png');
+    }
+    
+    .react{
+        background-image: url('../images/react.png');
+    }
+    
+    .redux{
+        background-image: url('../images/redux.png');
+    }
+    
+    .nodejs{
+        background-image: url('../images/nodejs.png');
+    }
+    
+    .postgresql{
+        background-image: url('../images/postgresql.png');
+    }
+    
+    .mysql{
+        background-image: url('../images/mysql.png');
+    }
+    
+    .mongodb{
+        background-image: url('../images/mongodb.png');
+    }
+    
+    .flutter{
+        background-image: url('../images/flutter.png');
+    }
+    
+    .git{
+        background-image: url('../images/git.png');
+    }
+    
+    .bash{
+        background-image: url('../images/bash.png');
     }
 }

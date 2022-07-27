@@ -1,8 +1,8 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 /* import Home from "../pages/Home"; */
-/* import About from "../pages/About"; */
-import Skills from "../pages/Skills";
+import About from "../pages/About";
+/* import Skills from "../pages/Skills"; */
 /* import Projects from "../pages/Projects"; */
 /* import Contact from "../pages/Contact"; */
 
@@ -11,8 +11,8 @@ function App() {
     <>
       <Navbar />
       {/* <Home /> */}
-      {/* <About /> */}
-      <Skills />
+      <About />
+      {/* <Skills /> */}
       {/* <Projects /> */}
       {/* <Contact /> */}
       <Footer />
