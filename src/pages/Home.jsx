@@ -5,7 +5,7 @@ export default function Home({readMoreClick, viewProjectsClick}) {
         <div className="home-info">
           <div className="home-icon"></div>
           <div className="home-tagline">
-            <p className="home-info-name">Hello ! I am Asif Ridwan</p>
+            <p className="home-info-name">Hello ! I am Asif Ridwanullah</p>
             <p className="home-info-id">A Full Stack Software Engineer who specializes in the MERN Stack</p>
           </div>
         </div>
