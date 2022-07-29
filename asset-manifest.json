@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5896da28.css",
+    "main.js": "/static/js/main.f11f3c27.js",
+    "static/media/avatar.png": "/static/media/avatar.d620fa447adb9bc535ed.png",
+    "static/media/avatar-bw.png": "/static/media/avatar-bw.6376c24a3e6643a46e14.png",
+    "static/media/swe_logo.png": "/static/media/swe_logo.917f50601ab8409423a3.png",
+    "static/media/postgresql.png": "/static/media/postgresql.01e2bbde649c44bd2482.png",
+    "static/media/postgresql-bw.png": "/static/media/postgresql-bw.defdd082d3447d1b4eeb.png",
+    "static/media/html.png": "/static/media/html.34bba45163b0dcaf4551.png",
+    "static/media/bash.png": "/static/media/bash.100bc048040428a44026.png",
+    "static/media/flutter.png": "/static/media/flutter.040709d8394f8b858852.png",
+    "static/media/flutter-bw.png": "/static/media/flutter-bw.4eb9e72f912b3a8e787b.png",
+    "static/media/nodejs.png": "/static/media/nodejs.733f6b6999668b7382b4.png",
+    "static/media/css.png": "/static/media/css.8c0ddc824caeb3925f4f.png",
+    "static/media/bash-bw.png": "/static/media/bash-bw.72464d9edb4ae759a5ff.png",
+    "static/media/html-bw.png": "/static/media/html-bw.54aab8ac40822beee4eb.png",
+    "static/media/react-bw.png": "/static/media/react-bw.8a1d5b1b14679e813e37.png",
+    "static/media/react.png": "/static/media/react.6d7439f19afed1da2445.png",
+    "static/media/mysql.png": "/static/media/mysql.8e0cbc6960e18bf45a82.png",
+    "static/media/css-bw.png": "/static/media/css-bw.3277da3fdc5ab808cb56.png",
+    "static/media/nodejs-bw.png": "/static/media/nodejs-bw.b056d63d01f1401f0892.png",
+    "static/media/mongodb.png": "/static/media/mongodb.510887057fbe99081d50.png",
+    "static/media/mysql-bw.png": "/static/media/mysql-bw.d4b7086c035aaad2e766.png",
+    "index.html": "/index.html",
+    "main.5896da28.css.map": "/static/css/main.5896da28.css.map",
+    "main.f11f3c27.js.map": "/static/js/main.f11f3c27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5896da28.css",
+    "static/js/main.f11f3c27.js"
+  ]
+}
