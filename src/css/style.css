@@ -221,7 +221,7 @@ a:link, a:visited{
     transform: translateX(-110%) rotate(45deg);
 }
 
-.icon:hover .far, .icon:hover .fab{
+.icon:hover .fa{
     color: #3572e2;
 }
 
